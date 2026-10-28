@@ -1,0 +1,30 @@
+{
+  "name": "luminapdf",
+  "private": true,
+  "version": "1.0.5",
+  "author": "hydese",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hydese/LuminaPDF.git"
+  },
+  "description": "Minimalist Windows PDF Reader with Intelligent Dark Mode",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.2.0",
+    "@tauri-apps/plugin-dialog": "^2.2.0",
+    "@tauri-apps/plugin-fs": "^2.2.0",
+    "@tauri-apps/plugin-shell": "^2.2.0",
+    "pdfjs-dist": "^4.10.38"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.2.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}

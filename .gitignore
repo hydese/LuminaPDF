@@ -1,0 +1,18 @@
+# Node / Frontend build artifacts
+node_modules/
+dist/
+*.local
+
+# Rust / Tauri compilation artifacts
+src-tauri/target/
+src-tauri/gen/
+
+# OS & Editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Keep release/latest.json tracked in git, ignore large local installer binaries in git tree
+release/*.exe
+release/*.msi

@@ -1,0 +1,11 @@
+{
+  "version": "1.0.5",
+  "pub_date": "2026-10-28T01:08:00Z",
+  "notes": "LuminaPDF v1.0.5 Release by hydese Ã¢â‚¬â€ Separable [1, 7, 7, 1]/16 CoolType subpixel anti-aliasing for smoother curves and diagonals in both Dark and Light PDF modes, 500% maximum zoom, Apple-style edge-proximity auto-hiding Full Screen mode (F11) with ultra-subtle bottom-left page/zoom HUD, streamlined Settings & Snipping Tool UI, and lightweight workspace build.",
+  "windows_x86_64": {
+    "url": "https://github.com/hydese/LuminaPDF/releases/download/v1.0.5/LuminaPDF_1.0.5_x64-setup.exe",
+    "sha256": "d717bc38d9131934d3168bd6789fccef0c2a43c888f4647ba60f77262d5f3a51",
+    "signature": null,
+    "installer_type": "nsis"
+  }
+}
